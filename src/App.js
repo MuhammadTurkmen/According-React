@@ -7,7 +7,10 @@ function App() {
     <div className="container">
       <h3>questions and answers about login</h3>
       <section className='info'>
-          
+          {data.map((qustion) => {
+            
+            return <SingleQuestion />
+          })}
       </section>
     </div>
   </main>
