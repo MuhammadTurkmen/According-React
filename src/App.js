@@ -9,7 +9,7 @@ function App() {
       <section className='info'>
           {data.map((qustion) => {
             const {id, title, info} = questions
-            return <SingleQuestion key={id} />
+            return <SingleQuestion key={id} {...qustion} />
           })}
       </section>
     </div>
