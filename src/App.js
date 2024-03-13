@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import data from './data';
 import SingleQuestion from './Question';
 function App() {
-  const [qustions, setQustions] = useState(data)
+  const [questions, setQuestions] = useState(data)
   return <main>
-    
+    <div className="container">
+      <h3>questions and answers about login</h3>
+    </div>
   </main>
 }
 
