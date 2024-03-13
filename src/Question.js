@@ -8,6 +8,7 @@ const Question = ({title, info}) => {
         btn
       </button>
     </header>
+    <p>{info}</p>
   </article>
 };
 
