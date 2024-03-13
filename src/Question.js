@@ -9,7 +9,9 @@ const Question = ({title, info}) => {
         btn
       </button>
     </header>
-    <p>{info}</p>
+    {
+      showInfo  && <p>{info}</p>
+    }
   </article>
 };
 
