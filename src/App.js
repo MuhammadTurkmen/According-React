@@ -8,8 +8,8 @@ function App() {
       <h3>blah and blah</h3>
       <section className="info">
         {
-          data.map((question) => {
-            const [id, title, info] = question
+          questions.map((question) => {
+            const {id, title, info} = question
             return <SingleQuestion key={id} {...question}/>
           })
         }
